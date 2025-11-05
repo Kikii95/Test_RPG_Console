@@ -1,0 +1,30 @@
+# Test RPG Console - Game Data
+# This file contains game configuration data
+
+## Enemy Templates
+# Format: name,hp,attack,defense,type,xp,gold
+
+Goblin,30,8,2,WEAK,20,10
+Skeleton,40,10,3,WEAK,25,15
+Orc Warrior,60,15,5,NORMAL,40,25
+Dark Knight,80,20,8,NORMAL,60,40
+Troll Berserker,100,25,10,STRONG,100,60
+Shadow Assassin,70,30,6,STRONG,90,55
+Ancient Dragon,200,40,15,BOSS,300,150
+Demon Lord,250,50,20,BOSS,500,250
+
+## Weapon Templates
+# Format: name,description,power,type
+
+Iron Sword,A basic but reliable blade,5,SWORD
+Steel Sword,A sharp blade forged in fire,10,SWORD
+Battle Axe,A heavy weapon for devastating blows,15,AXE
+Longbow,Strike from afar with precision,12,BOW
+Magic Staff,Channel arcane energies,8,STAFF
+
+## Potion Templates
+# Format: name,description,power,type
+
+Health Potion,Restores 50 HP,50,HEALTH
+Mana Potion,Restores 30 MP,30,MANA
+Full Restore,Completely restores HP and MP,999,FULL_RESTORE
